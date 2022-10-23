@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+  }
+.hero{
+    display: flex;
+    margin:0 auto ;
+    width: 100px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder {
+    color: red;
+}
+
+input {
+    display: block;
+    width: 400px;
+    padding: 0 20px;
+}
+
+input,
+input::placeholder {
+    font: 35px/3 sans-serif;
+    border-radius: 50px;
+}
