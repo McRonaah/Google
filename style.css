@@ -41,8 +41,6 @@ input::placeholder {
     height: 45px;
     border-radius: 50%;
     margin: 10px 10px;
-    text-decoration: none;
-    font-size: 20px;
  }
 
  .social img:hover{
